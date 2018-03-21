@@ -1,0 +1,36 @@
+body {
+  background-color: black;
+}
+
+.topnav {
+    background-color: black;
+    overflow: hidden;
+    width: 100%;
+}
+
+.topnav a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font: 17px 'Unica One', cursive;
+}
+
+.topnav a:hover {
+  background: white;
+    color: black;
+}
+
+header img, {
+  float: left;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+h1 {
+  font: 30px 'Abel', sans-serif;
+  text-align: center;
+  color: white;
+}

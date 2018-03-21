@@ -1,0 +1,76 @@
+body {
+  background-color: black;
+}
+
+.topnav {
+    background-color: black;
+    overflow: hidden;
+    width: 100%;
+}
+
+.topnav a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font: 17px 'Unica One', cursive;
+}
+
+.topnav a:hover {
+  background: white;
+    color: black;
+}
+
+.container{
+  justify-content: center;
+}
+
+#avatar {
+justify-content: center;
+  width: 30%;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+p {
+  font : 25px 'Abel', sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 50px;
+    width: 360px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.fa:hover {
+    opacity: 0.5;
+}
+
+.fa-facebook {
+    background: #white;
+    color: white;
+}
+
+.fa-instagram {
+    background: #white;
+    color: white;
+}
+
+.fa-behance {
+    background: #white;
+    color: white;
+}
+.fa-tumblr {
+    background: #white;
+    color: white;
+}

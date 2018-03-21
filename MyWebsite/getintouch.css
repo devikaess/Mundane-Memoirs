@@ -1,0 +1,74 @@
+body {
+  background-color: black;
+}
+
+.topnav {
+    background-color: black;
+    overflow: hidden;
+    width: 100%;
+}
+
+.topnav a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font: 17px 'Unica One', cursive;
+}
+
+.topnav a:hover {
+  background: white;
+  color: black;
+}
+
+header img, {
+  float: left;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.container {
+  font-family: 'Unica One', cursive;
+  background-color: white;
+  padding:20px;
+  border-radius: 5px;
+  size: 500px 500px;
+  font-size: 30px;
+  justify-content: center;
+  transform: translate(50%, 50%);
+  width: 50%;
+}
+
+input[type=text], select, textarea {
+  font-family: 'Abel', sans-serif;
+  width:100%;
+  size: 500px 500px;
+  padding:15px;
+  border: 1px grey;
+  border-radius: 3px;
+  margin-top: 10px;
+  resize: vertical
+}
+
+input[type=submit] {
+  padding : 40px;
+  cursor: pointer;
+}
+
+input[type=submit] : hover {
+  background-color: #d30094 0
+}
+
+.btn{
+  background: linear-gradient(to bottom, #d30094 0%,#c146a1 50%,#a80077 87%,#bb007a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  border-radius: 5px;
+  Padding: 6px 12px;
+  color: white;
+  font: 20px font-family: 'Unica One', cursive;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 1px;
+  text-shadow:0px 2px 4px rgba(0, 0, 0.6);
+}
